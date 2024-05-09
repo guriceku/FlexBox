@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+  margin: 0px;
+  padding; 0px;
+}
+
+body{
+  font-family: 'Roboto Slab' , serif;
+
+
+}
+
+.first-section {
+  background-color:
+   #d97382;
+}
+
+.second-section {
+  background-color:
+  #01492f ;
+}
+
+
+
+
+
+
+#header-logo {
+  font-size: 50px;
+  color: #013220;
+  font-weight: 600;
+}
+
+.header-link {
+  font-size: 20px;
+  justify-content: center;
+}
+
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: space-evenly;
+  margin: 0;
+}
+
+.navbar-left,.navbar-right {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+}
+
+.content-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.content-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+img{
+  margin: 50px;
+}
+
+.p-first {
+  font-size: 18px;
+  color: #01492f;
+  margin-left: 0px;
+}
+
+.sign-up-first-section {
+  background-color: #01492f;
+  color: white;
+  width: 75px  ;
+  height: 35px;
+  border: solid wheat 1px;
+  border-radius: 10px;
+}
+.nentitulli {
+  color: #01492f;
+  font-size: 40px;
+  margin-right: 30spx;
+
+}
+
+h2{
+ text-align: center;
+ color: #d97382;
+}
+
+.row-of-blue-divs {
+  display: flex;
+  flex-direction: row;
+}
+
+.box-blue{
+border: #d97382;
+padding: 10px;
+border-radius: 25px;
+border:  2px solid;
+height:200px;
+width: 200px;
+justify-content: ;
+}
